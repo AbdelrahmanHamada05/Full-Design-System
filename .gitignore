@@ -1,6 +1,9 @@
+# ModelSim / QuestaSim build & simulation files
 work/
-SYS.cr.mti 
-SYS.mpf 
-SYS.mpf_new 
-vish_stacktrace.vstf 
-vsim.wlf
+*.cr.mti
+*.mpf
+*.mpf_new
+*.mpf.bak
+*.wlf
+*.vstf
+transcript
