@@ -1,0 +1,51 @@
+Info:  Net i:/WORK/ALU_DW_div_uns_0/remainder[7] is undriven.
+Info:  Net i:/WORK/ALU_DW_div_uns_0/remainder[6] is undriven.
+Info:  Net i:/WORK/ALU_DW_div_uns_0/remainder[5] is undriven.
+Info:  Net i:/WORK/ALU_DW_div_uns_0/remainder[4] is undriven.
+Info:  Net i:/WORK/ALU_DW_div_uns_0/remainder[3] is undriven.
+Info:  Net i:/WORK/ALU_DW_div_uns_0/remainder[2] is undriven.
+Info:  Net i:/WORK/ALU_DW_div_uns_0/remainder[1] is undriven.
+Info:  Net i:/WORK/ALU_DW_div_uns_0/remainder[0] is undriven.
+Info:  Net i:/WORK/ALU_DW_div_uns_0/divide_by_0 is undriven.
+Info:  Net i:/WORK/ALU_DW01_sub_0/CO is undriven.
+Info:  Net i:/WORK/ALU_DW01_add_0/CO is undriven.
+Info:  Net i:/WORK/ALU_DW01_add_1/CO is undriven.
+Info:  guide_uniquify 94 (Line: 704)  Cannot find object "U0_ALU/dp_cluster_0/mult_33" in design 'SYS_TOP'.
+Info:  Pre-verification of r:/WORK/ALU/div_34 SUCCEEDED.
+Info:  Pre-verification of r:/WORK/ALU/mult_33 SUCCEEDED.
+Info:  guide_change_names 102 (Line: 1033)  Cannot find reference design 'Multi_FF'.
+Info:  SVF Operation 102 (Line: 1033) - change_names.  Status: rejected
+
+Info:  guide_change_names 103 (Line: 1039)  Cannot find reference design 'MUX_21_REG'.
+Info:  SVF Operation 103 (Line: 1039) - change_names.  Status: rejected
+
+Info:  guide_change_names 104 (Line: 1050)  Cannot find reference design 'ASYNC_FIFO_f'.
+Info:  SVF Operation 104 (Line: 1050) - change_names.  Status: rejected
+
+Info:  guide_change_names 105 (Line: 1054)  Cannot find reference design 'UART_TX'.
+Info:  SVF Operation 105 (Line: 1054) - change_names.  Status: rejected
+
+Info:  guide_change_names 106 (Line: 1058)  Cannot find reference design 'FIFO_MEM_CNTRL'.
+Info:  SVF Operation 106 (Line: 1058) - change_names.  Status: rejected
+
+Info:  guide_change_names 107 (Line: 1192)  Cannot find reference design 'FIFO_WR'.
+Info:  SVF Operation 107 (Line: 1192) - change_names.  Status: rejected
+
+Info:  guide_change_names 108 (Line: 1204)  Cannot find reference design 'FIFO_RD'.
+Info:  SVF Operation 108 (Line: 1204) - change_names.  Status: rejected
+
+Info:  guide_change_names 111 (Line: 1233)  Cannot find reference design 'serializer'.
+Info:  SVF Operation 111 (Line: 1233) - change_names.  Status: rejected
+
+Info:  guide_change_names 115 (Line: 1278)  Cannot find reference design 'deserializer'.
+Info:  SVF Operation 115 (Line: 1278) - change_names.  Status: rejected
+
+Info:  guide_change_names 117 (Line: 1296)  Cannot find reference design 'par_check'.
+Info:  SVF Operation 117 (Line: 1296) - change_names.  Status: rejected
+
+Info:  guide_change_names 122 (Line: 1339)  Cannot find reference design 'ALU_DW_div_uns_0'.
+Info:  SVF Operation 122 (Line: 1339) - change_names.  Status: rejected
+
+Info:  guide_change_names 123 (Line: 1433)  Cannot find reference design 'ALU_DW02_mult_0'.
+Info:  SVF Operation 123 (Line: 1433) - change_names.  Status: rejected
+

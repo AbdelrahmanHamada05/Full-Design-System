@@ -1,0 +1,119 @@
+ 
+****************************************
+check_design summary:
+Version:     O-2018.06-SP1
+Date:        Sun Oct 11 01:43:04 2026
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     29
+    Unconnected ports (LINT-28)                                    29
+
+Cells                                                              28
+    Connected to power or ground (LINT-32)                         23
+    Nets connected to multiple pins on same cell (LINT-33)          5
+
+Nets                                                               13
+    Unloaded nets (LINT-2)                                         13
+--------------------------------------------------------------------------------
+
+Warning: In design 'SYS_TOP', net 'SYNOPSYS_UNCONNECTED_5' driven by pin 'U0_CLKDIV_MUX/OUT[3]' has no loads. (LINT-2)
+Warning: In design 'SYS_TOP', net 'SYNOPSYS_UNCONNECTED_4' driven by pin 'U0_CLKDIV_MUX/OUT[4]' has no loads. (LINT-2)
+Warning: In design 'SYS_TOP', net 'SYNOPSYS_UNCONNECTED_3' driven by pin 'U0_CLKDIV_MUX/OUT[5]' has no loads. (LINT-2)
+Warning: In design 'SYS_TOP', net 'SYNOPSYS_UNCONNECTED_2' driven by pin 'U0_CLKDIV_MUX/OUT[6]' has no loads. (LINT-2)
+Warning: In design 'SYS_TOP', net 'SYNOPSYS_UNCONNECTED_1' driven by pin 'U0_CLKDIV_MUX/OUT[7]' has no loads. (LINT-2)
+Warning: In design 'SYS_TOP', net 'U0_ALU/SYNOPSYS_UNCONNECTED_8' driven by pin 'U0_ALU/div_34/remainder[0]' has no loads. (LINT-2)
+Warning: In design 'SYS_TOP', net 'U0_ALU/SYNOPSYS_UNCONNECTED_7' driven by pin 'U0_ALU/div_34/remainder[1]' has no loads. (LINT-2)
+Warning: In design 'SYS_TOP', net 'U0_ALU/SYNOPSYS_UNCONNECTED_6' driven by pin 'U0_ALU/div_34/remainder[2]' has no loads. (LINT-2)
+Warning: In design 'SYS_TOP', net 'U0_ALU/SYNOPSYS_UNCONNECTED_5' driven by pin 'U0_ALU/div_34/remainder[3]' has no loads. (LINT-2)
+Warning: In design 'SYS_TOP', net 'U0_ALU/SYNOPSYS_UNCONNECTED_4' driven by pin 'U0_ALU/div_34/remainder[4]' has no loads. (LINT-2)
+Warning: In design 'SYS_TOP', net 'U0_ALU/SYNOPSYS_UNCONNECTED_3' driven by pin 'U0_ALU/div_34/remainder[5]' has no loads. (LINT-2)
+Warning: In design 'SYS_TOP', net 'U0_ALU/SYNOPSYS_UNCONNECTED_2' driven by pin 'U0_ALU/div_34/remainder[6]' has no loads. (LINT-2)
+Warning: In design 'SYS_TOP', net 'U0_ALU/SYNOPSYS_UNCONNECTED_1' driven by pin 'U0_ALU/div_34/remainder[7]' has no loads. (LINT-2)
+Warning: In design 'data_sampling', port 'prescale[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW_div_uns_0', port 'remainder[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW_div_uns_0', port 'remainder[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW_div_uns_0', port 'remainder[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW_div_uns_0', port 'remainder[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW_div_uns_0', port 'remainder[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW_div_uns_0', port 'remainder[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW_div_uns_0', port 'remainder[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW_div_uns_0', port 'remainder[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW_div_uns_0', port 'divide_by_0' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_0', port 'A[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_0', port 'B[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_0', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_0', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_add_0', port 'A[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_add_0', port 'B[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_add_0', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_add_0', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW02_mult_0', port 'TC' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_add_1', port 'A[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_add_1', port 'B[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_add_1', port 'B[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_add_1', port 'B[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_add_1', port 'B[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_add_1', port 'B[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_add_1', port 'B[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_add_1', port 'B[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_add_1', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_add_1', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', a pin on submodule 'U0_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_clk_en' is connected to logic 1. 
+Warning: In design 'SYS_TOP', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_clk_en' is connected to logic 1. 
+Warning: In design 'SYS_TOP', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[7]' is connected to logic 0. 
+Warning: In design 'SYS_TOP', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[6]' is connected to logic 0. 
+Warning: In design 'SYS_TOP', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[5]' is connected to logic 0. 
+Warning: In design 'SYS_TOP', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[4]' is connected to logic 0. 
+Warning: In design 'SYS_TOP', a pin on submodule 'U1_ClkDiv' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_div_ratio[3]' is connected to logic 0. 
+Warning: In design 'ALU', a pin on submodule 'sub_32' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[8]' is connected to logic 0. 
+Warning: In design 'ALU', a pin on submodule 'sub_32' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[8]' is connected to logic 0. 
+Warning: In design 'ALU', a pin on submodule 'sub_32' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'ALU', a pin on submodule 'add_31' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[8]' is connected to logic 0. 
+Warning: In design 'ALU', a pin on submodule 'add_31' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[8]' is connected to logic 0. 
+Warning: In design 'ALU', a pin on submodule 'add_31' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'ALU', a pin on submodule 'mult_33' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TC' is connected to logic 0. 
+Warning: In design 'ALU_DW02_mult_0', a pin on submodule 'FS_1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[13]' is connected to logic 0. 
+Warning: In design 'ALU_DW02_mult_0', a pin on submodule 'FS_1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[6]' is connected to logic 0. 
+Warning: In design 'ALU_DW02_mult_0', a pin on submodule 'FS_1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[5]' is connected to logic 0. 
+Warning: In design 'ALU_DW02_mult_0', a pin on submodule 'FS_1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[4]' is connected to logic 0. 
+Warning: In design 'ALU_DW02_mult_0', a pin on submodule 'FS_1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[3]' is connected to logic 0. 
+Warning: In design 'ALU_DW02_mult_0', a pin on submodule 'FS_1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[2]' is connected to logic 0. 
+Warning: In design 'ALU_DW02_mult_0', a pin on submodule 'FS_1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[1]' is connected to logic 0. 
+Warning: In design 'ALU_DW02_mult_0', a pin on submodule 'FS_1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[0]' is connected to logic 0. 
+Warning: In design 'ALU_DW02_mult_0', a pin on submodule 'FS_1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'ALU', the same net is connected to more than one pin on submodule 'sub_32'. (LINT-33)
+   Net 'n1' is connected to pins 'A[8]', 'B[8]'', 'CI'.
+Warning: In design 'ALU', the same net is connected to more than one pin on submodule 'add_31'. (LINT-33)
+   Net 'n2' is connected to pins 'A[8]', 'B[8]'', 'CI'.
+Warning: In design 'ALU_DW02_mult_0', the same net is connected to more than one pin on submodule 'FS_1'. (LINT-33)
+   Net 'n39' is connected to pins 'A[13]', 'B[6]''.
+Warning: In design 'ALU_DW02_mult_0', the same net is connected to more than one pin on submodule 'FS_1'. (LINT-33)
+   Net 'n40' is connected to pins 'B[5]', 'B[4]'', 'B[3]', 'B[2]', 'B[1]'.
+Warning: In design 'ALU_DW02_mult_0', the same net is connected to more than one pin on submodule 'FS_1'. (LINT-33)
+   Net 'n_Logic0_' is connected to pins 'B[0]', 'CI''.
+1
